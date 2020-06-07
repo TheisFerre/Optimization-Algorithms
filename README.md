@@ -7,7 +7,7 @@ A more detailed description can be found on [here](https://en.wikipedia.org/wiki
 
 This implementation is made to find minimum values of 1-variable n-polynomial functions.
 
-Let's see how the implementation works on the function 0.02x^4 - 0.6x^3 - 35x^2 + 50x. 
+Let's see how the implementation works on the function ```0.02x^4 - 0.6x^3 - 35x^2 + 50x```. 
 To generate the Particle Swarm, the first step is to define a particle class:
 ```python3
 class Particle:
