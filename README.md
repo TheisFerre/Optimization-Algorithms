@@ -33,15 +33,6 @@ class Particle:
 
 Every particle is stored in the ParticleSwarm class. This class contains a bunch of helper functions to generate a GIF and optimize the swarm.
 
-Below is an example of how we could generate a GIF of Particle Swarm optimizing on the function mentioned above.
-```python3
-def func(*args):
-    return 0.02*args[0]**4 - 0.6*args[0]**3 - 35*args[0]**2 + 50*args[0]
-
-swarm = ParticleSwarm(func, 'x', iterations = 100, particles=25, track_movement=True, particle_weights=(0.6, 0.8, 0.2))
-swarm.generate_gif()
-```
-
 Let's see how some of these optimizations look with different weights:
 
 ![](PSO2.gif)
