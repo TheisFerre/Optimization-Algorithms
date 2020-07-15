@@ -17,7 +17,10 @@ Let's see how the implementation works on the function ```0.02x^4 - 0.6x^3 - 35x
 ## Differential Evolution (DE)
 Differential Evolution (DE) also generates a number of particles at initialization. In DE the particles are mutated, based on the other particles position. The each dimension in the mutated position is then "accepted" with a probability and in the end the new position is compared to the old. If the new position is better, the particle will be updated to this position.
 
+## Stochastic Gradient Descent (Neural Network Optimization)
+Implementation of Stochastic Gradient Descent for optimizing a simple neural network. Below is plotted decision boundary of trained Network.
 
+![](nn_decisionboundary.png)
 
 
 
